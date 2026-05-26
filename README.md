@@ -8,24 +8,26 @@ Visual components and Python
 ## Theory:
 Queuing are the most frequently encountered problems in everyday life. For example, queue at a cafeteria, library, bank, etc. Common to all of these cases are the arrivals of objects requiring service and the attendant delays when the service mechanism is busy. Waiting lines cannot be eliminated completely, but suitable techniques can be used to reduce the waiting time of an object in the system. A long waiting line may result in loss of customers to an organization. Waiting time can be reduced by providing additional service facilities, but it may result in an increase in the idle time of the service mechanism.
 
-![1](https://github.com/user-attachments/assets/db0c62af-6853-425d-84b9-ae83da09d1c3)
-
+![image](1.png)
 
 This is a queuing model in which the arrival is Marcovian and departure distribution is also Marcovian,number of server is one and size of the queue is also Marcovian,no.of server is one and size of the queue is infinite and service discipline is 1st come 1st serve(FCFS) and the calling source is also finite.
 
 ## Procedure :
-![image](https://github.com/user-attachments/assets/1eda4b31-4371-492b-b926-084c3c3ed9c7)
 
+![image](https://github.com/HIRU-VIRU/Single-server-infinite-capacity---Markov-Model/assets/145972122/1fc9f7fa-30ae-4106-bff6-5b0dfb791fe1)
 
 
 ## Experiment:
-![image](https://github.com/user-attachments/assets/9666f48c-40b8-45cd-b907-f93b062c1784)
+
+![278802768-558bdff0-948e-4244-960f-3cc482dffa6c](https://github.com/HIRU-VIRU/Single-server-infinite-capacity---Markov-Model/assets/145972122/ef074fab-943a-46e9-ab50-e61a17b45267)
 
 
-![image](https://github.com/user-attachments/assets/1c13fdf2-3bd0-4f0f-b07c-d90232ff599b)
-
-
+ 
 ## Program
+```
+Developed by : RAGA SUSANTH
+Register number : 212224230217
+```
 ```
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time=float(input("Enter the mean  inter service time of Lathe Machine (in secs) :  "))
@@ -51,12 +53,11 @@ if (lam <  mu):
 else:
     print("Warning! Objects Over flow will happen in the conveyor")
 print("---------------------------------------------------------------")
- ```  
-
+```
 ## Output :
-![image](https://github.com/user-attachments/assets/7e1f45ca-0c91-4204-91aa-1fb44a6ada45)
 
-
+![image](https://github.com/HIRU-VIRU/Single-server-infinite-capacity---Markov-Model/assets/145972122/4780355a-9445-4c3e-aaa6-ac654eaff2e6)
 
 ## Result :
+
 The average number of material in the sysytem and in the conveyor and waiting time are successfully found.
